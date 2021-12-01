@@ -4,7 +4,7 @@ import fr.lernejo.logger.Logger;
 import fr.lernejo.logger.LoggerFactory;
 
 public class ComputerPlayer implements Player {
-    private final Logger logger = LoggerFactory.getLogger("player");
+    private final Logger logger = LoggerFactory.getLogger("robot");
     private boolean isFirstGuess = true;
     private boolean previousLowerOrGreater;
     private long min = 1;
