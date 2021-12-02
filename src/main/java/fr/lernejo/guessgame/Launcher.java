@@ -9,7 +9,7 @@ public class Launcher {
             final Simulation simulation = new Simulation(player);
 
             final SecureRandom random = new SecureRandom();
-            final long randomNumber = random.nextLong(1, 10001);
+            final long randomNumber = random.nextLong(1, 101);
 
             simulation.initialize(randomNumber);
             simulation.loopUntilPlayerSucceed(Long.MAX_VALUE);

@@ -8,7 +8,7 @@ public class ComputerPlayer implements Player {
     private boolean isFirstGuess = true;
     private boolean previousLowerOrGreater;
     private long min = 1;
-    private long max = 10000;
+    private long max = 100;
 
     @Override
     public long askNextGuess() {
